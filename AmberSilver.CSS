@@ -1,0 +1,60 @@
+body {
+	color: #000000;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-size: 10pt;
+	text-align: center;
+	background-color: #FFE4E1;
+
+}
+
+header {
+	background-color: #585858;
+	height:150px;
+}
+
+div.logo img{
+	margin:0;
+	padding:0;
+	width:300px;
+	height:150px;
+	float: left;	
+}
+	
+.navigation{
+	font-size: 120%;
+	display:flex;
+	flex-wrap:wrap;	
+	padding-top:0;
+	margin-top:0;
+	
+
+}
+
+.navigation a {
+	color:white;
+	margin:0;
+}
+
+a:link {
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;	
+}
+
+a:hover {
+	border: 3px solid white;
+	background-color: green;
+}
+
+.navigation a.active {
+	border: 3px solid white;	
+}
+
+div.display1 img{
+	width:300px;
+	height: 300px;
+	float: left;
+	padding: 5px;
+		
+}
