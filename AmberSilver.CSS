@@ -35,26 +35,42 @@ div.logo img{
 	margin:0;
 }
 
-a:link {
-	padding: 14px 25px;
+.navigation a:link {
+	padding: 14px 30px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;	
 }
 
-a:hover {
+.navigation a:hover {
 	border: 3px solid white;
-	background-color: green;
+	background-color: #C0C0C0;
 }
 
 .navigation a.active {
 	border: 3px solid white;	
 }
 
-div.display1 img{
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 5px;
+}
+
+.grid-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
 	width:300px;
-	height: 300px;
-	float: left;
-	padding: 5px;
-		
+	
+}
+
+.grid-item img {
+	width:300px;
+}
+
+.grid-item:hover {
+	border: 2px solid black;
 }
