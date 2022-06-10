@@ -10,6 +10,8 @@ body {
 header {
 	background-color: #585858;
 	height:150px;
+	margin-bottom:5px;
+	
 }
 
 div.logo img{
@@ -73,4 +75,66 @@ div.logo img{
 
 .grid-item:hover {
 	border: 2px solid black;
+}
+
+.grid-media {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+	width: 900px;
+	padding-left: 300px;
+	height: 450px;
+	
+		
+}
+
+div.email {
+	border: 2px solid black;
+	font-size: 20px;
+	margin:5px;	
+}
+
+div.socialMedia {
+	border: 2px solid black;
+	font-size: 20px;
+	margin:5px;	
+}
+
+div.messageBox {
+	border: 2px solid black;
+	font-size: 20px;
+	margin:5px;
+	grid-row-start: 1;
+	grid-row-end: 3;
+		
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 2em;
+    background-color: #96d09e;
+}
+
+input[name="email"] {
+    background-color: #fffff2;
+    width:80%;
+	height: 30px;
+	margin: 5px;
+    
+}
+
+input[name="mytext"] {
+	background-color: #fffff2;
+	width: 80%;
+	height: 300px;
+}
+
+h1 {
+	font-family: Lucida Handwriting;
+	font-size: 20pt;
+}
+
+h2 {
+	font-family: Lucida Handwriting;
+	font-size: 16pt;
 }
