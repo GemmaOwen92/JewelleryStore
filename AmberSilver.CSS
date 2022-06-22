@@ -26,7 +26,7 @@ div.logo img{
 	font-size: 120%;
 	display:flex;
 	flex-wrap:wrap;	
-	padding-top:0;
+	padding-top:15px;
 	margin-top:0;
 	
 
@@ -35,6 +35,7 @@ div.logo img{
 .navigation a {
 	color:white;
 	margin:0;
+	
 }
 
 .navigation a:link {
@@ -75,7 +76,7 @@ div.logo img{
 }
 
 .display-item:hover {
-	border: 2px solid black;
+	border: 3px solid black;
 }
 
 .grid-media {
