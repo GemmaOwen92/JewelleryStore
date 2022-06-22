@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>AmberSilver</title>
+	<link rel="stylesheet" type="text/css" href="AmberSilver.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="GemmaOwen"/>
+	</head>
+	
+	<header>
+	
+	<div class="logo"><img src="AmberSilver.jpeg" alt="Amber Silver text with a soft touch feather" />
+   </div>
+   
+   
+  
+	<nav class = "navigation">
+	<p>
+	<a href = "AmberSilver.html"> Shop </a>
+	<a href = "AshesCollection.html"> Ashes Collection </a>
+	<a href = "Reviews.html"> Reviews </a>
+	<a class="active" href = "ContactUs.html"> Contact Us </a>
+	</p>
+	</nav>
+	
+	</header>
+	
+	<div class ="grid-media">
+	
+	<div class="email">
+	<h1> Email us </h1>
+	<p> Amber.Silver@made-up.com</p>
+	<h2> Sometimes we get it wrong </h2>
+	<p> Please send any complaints to:</p>
+	<p> AmberSilver.complaints@made-up.com</p>
+	</div>
+	
+	<div class="messageBox">
+	<h1> Message Us </h1>
+	
+	<label for="email"></label>
+    <input 
+	  type="text" 
+	  id="email" 
+	  name="email"
+	  value="Enter your Email"
+	  />
+    	
+	<label for="mytext"></label>
+        <input
+          type="text"
+          name="mytext"
+          id="mytext"
+          value="Enter your message"
+        />
+      </p>
+	  
+	  <p>
+        <input type="submit" name="submit" value="Submit" />
+      </p>
+
+	</div>
+	
+	<div class="socialMedia">
+	<h1> Contact us on Social Media </h1>
+	<a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	</div>
+	
+			
+	</div>
+	
+	
+ </body>
+</html>

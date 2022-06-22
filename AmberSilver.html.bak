@@ -32,17 +32,16 @@
 	
 	<div class="display-item">
 	<img src="Images/display1.jpg" alt="Amber Silver text with a soft touch feather">
-	<p>Three-Stack Sterling Silver Braclets<p>
 	<p class="price">£20.00</p>
+	<p>Three-Stack Sterling Silver Braclets<p>
 	</div>
 	
    
 	
 	<div class="display-item">
 	<img src="Images/display2.jpg" alt="Amber Silver text with a soft touch feather">
-	<p>Sterling Silver Beaded Heart Braclet<p>
 	<p class="price">£15.00</p>
-	
+	<p>Sterling Silver Beaded Heart Braclet<p>
 	
    </div>
    
@@ -50,9 +49,8 @@
 	
 	<div class="display-item">
 	<img src="Images/display3.jpg" alt="Amber Silver text with a soft touch feather">
-	<p>Sterling Silver Beaded Bee Necklace<p>
 	<p class="price">£25.00</p>
-	
+	<p>Sterling Silver Beaded Bee Necklace<p>
 	
 	
    </div>
@@ -61,9 +59,8 @@
 	
 	<div class="display-item">
 	<img src="Images/display4.jpg" alt="Amber Silver text with a soft touch feather">
-	<p>Sterling Silver Heart Ring<p>
 	<p class="price">£10.00</p>
-	
+	<p>Sterling Silver Heart Ring<p>
 	
    </div>
    </div>
